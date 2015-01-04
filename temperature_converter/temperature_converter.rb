@@ -1,4 +1,4 @@
-puts "Type '1' to covert from Celsius to Fahrenheit OR Type '2' to convert from Fahrenheit to Celsius."
+puts "Type '1' to convert from Celsius to Fahrenheit OR Type '2' to convert from Fahrenheit to Celsius."
 
 unit = gets.chomp
 
