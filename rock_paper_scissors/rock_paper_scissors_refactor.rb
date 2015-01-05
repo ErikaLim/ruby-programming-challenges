@@ -6,7 +6,7 @@ class RPS
 
   puts "Computer chooses #{computer}."
 
-  if player == "Rock" || player == "rock"
+  if player == "Rock".downcase
     if computer == "Rock"
       puts "It's a draw."
     elsif computer == "Paper"
@@ -14,7 +14,7 @@ class RPS
     else computer == "Scissors"
       puts "You Win!"
     end
-  elsif player == "Paper" || player == "paper"
+  elsif player == "Paper".downcase
     if computer == "Rock"
       puts "You Win!"
     elsif computer == "Paper"
@@ -22,7 +22,7 @@ class RPS
     else computer == "Scissors"
       puts "You Lose"
     end
-  elsif player == "Scissors" || player == "scissors"
+  elsif player == "Scissors".downcase
     if computer == "Rock"
       puts "You Lose"
     elsif computer == "Paper"
