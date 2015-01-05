@@ -16,4 +16,4 @@ puts "Please enter an integer"
 
 max = gets.chomp.to_i
 
-puts prime_printer(max)
+prime_printer(max)
